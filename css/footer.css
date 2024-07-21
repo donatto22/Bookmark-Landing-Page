@@ -1,5 +1,23 @@
 footer {
+    width: 100%;
+    text-align: center;
     background-color: var(--soft-blue);
     /* background-color: var(--soft-red); */
+    padding: 50px 0;
 
 }
+
+footer .footer-bottom{
+    display: flex;
+}
+
+footer p{
+    color: aliceblue;
+    font-size: 11px;
+}
+
+footer h4{
+    padding: 0 340px;
+    color: aliceblue;
+}
+
