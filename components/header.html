@@ -1,14 +1,43 @@
 <header>
-    Features
-    Pricing
-    Contact
-    Login
+    <div id="navigation">
+        <img src="../images/logo-bookmark.svg" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+
+        <!-- menu para celular -->
+        <div id="menu-mobile">
+            <button id="hamburguesa" onclick="mostrarMenu()">
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+    
+            <div id="burger">
+                <button id="close-menu" onclick="mostrarMenu()">
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
+                <div><a href="#">Features</a></div>
+                <div><a href="#">Pricing</a></div>
+                <div><a href="#">Contact</a></div>
+                <div><a href="#">Login</a></div>
+            </div>
+         </div>
+    </div>
   
-    A Simple Bookmark Manager
-  
-    A clean and simple interface to organize your favourite websites. Open a new 
-    browser tab and see your sites load instantly. Try it for free.
-  
-    Get it on Chrome
-    Get it on Firefox
+    <div id="container">
+        <div id="left">
+            <h1>A Simple Bookmark Manager</h1>
+            <p>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+            <button variant="primary">Get it on Chrome</button>
+            <button variant="secondary">Get it on Firefox</button>
+        </div>
+
+        <div id="right">
+            <img src="../images/illustration-hero.svg" alt="illustration hero">
+        </div>
+    </div>
 </header>
