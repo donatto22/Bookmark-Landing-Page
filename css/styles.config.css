@@ -1,6 +1,21 @@
+/* Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 @import url('./normalize.css');
 
 @import url('./download.css');
 @import url('./features.css');
 @import url('./header.css');
 @import url('./footer.css');
+
+:root {
+    --soft-blue: hsl(231, 69%, 60%);
+    --soft-red: hsl(0, 94%, 66%);
+    --grayish-blue: hsl(229, 8%, 60%);
+    --very-dark-blue: hsl(229, 31%, 21%);
+}
+
+body {
+    font-family: 'Rubik';
+    font-size: 18px;
+}
