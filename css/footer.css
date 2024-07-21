@@ -1,14 +1,16 @@
 footer {
     width: 100%;
-    text-align: center;
-    background-color: var(--soft-blue);
+    /* text-align: center; */
+    
     /* background-color: var(--soft-red); */
     padding: 50px 0;
 
 }
 
-footer .footer-bottom{
-    display: flex;
+footer #footer-top{
+    /* display: flex; */
+    background-color: var(--soft-blue);
+    text-align: center;
 }
 
 footer p{
@@ -16,8 +18,28 @@ footer p{
     font-size: 11px;
 }
 
-footer h4{
-    padding: 0 340px;
+footer h2{
+    padding: 0 10%;
     color: aliceblue;
 }
+
+footer #footer-bottom{
+    background-color: var(--very-dark-blue);
+    
+}
+
+.footer-list{
+    display: flex;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+
+
+
 
