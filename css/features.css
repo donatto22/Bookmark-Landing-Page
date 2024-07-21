@@ -1,0 +1,38 @@
+.invisible {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#tabs {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto 1em;
+    text-align: center;
+}
+
+.tab {
+    border-bottom: 4px solid gray;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 1em;
+    cursor: pointer;
+}
+
+.tab:hover {
+    color: var(--soft-red);
+}
+
+.tab-active {
+    border-bottom: 4px solid var(--soft-red);
+}

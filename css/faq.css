@@ -1,0 +1,39 @@
+summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* summary::marker {
+    content: none;
+} */
+
+details {
+    padding: 1em 0;
+    height: 20px;
+}
+
+details:not(:last-child) {
+    border-top: 1px solid;
+}
+
+details:last-child {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+details[open] {
+    height: 150px;
+}
+
+details[open] ion-icon {
+    transform: rotate(180deg);
+}
+
+details, details p {
+    transition: height .3s ease;
+}
+
+ion-icon {
+    transition: transform .3s ease;
+}
